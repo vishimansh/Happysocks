@@ -1,0 +1,110 @@
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+@font-face {
+    font-family: acumen;
+    src: url(acumin-pro-cufonfonts/Acumin-BdPro.otf);
+}
+@font-face {
+    font-family: monument;
+    src: url(monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
+}
+@font-face {
+    font-family: roboto;
+    src: url(Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+#main{width: 100%;height: 100vh;background-color: #F5DFD8;position: relative;}
+#nav{width: 100%;height: 70px;display: flex;justify-content: space-between;background-color:#F5DFD8;align-items: center;border-bottom: 1.6px black solid;}
+#wave{margin-left: 8%;font-size: 20px;}
+#navp1{display: flex;justify-content:space-between;font-size: 13px;width: 34%;}
+#navp1 h3{border: solid 2px black; border-radius: 15.5px;padding: 3.1px 16.5px;}
+#navp2{width: 11.6%;}
+#navp2 i{border:  solid 2px black;border-radius: 50%;padding: 3px 4px;margin-left: 2.3px;}
+#dressed{width: 100%;height: 643px;background-color: #F5DFD8;}
+#dressed1{width: 100%;height:140px;font-family:monument;background-color:#F5DFD8;font-size: 50px;text-align: center;display: flex;align-items: center;justify-content: center;font-weight: 900;font-style:;}
+#dressed1 h1{padding-top: 20px;}
+#dressed2{width:100%;height:503px;background-color: #F5DFD8;position: relative;}
+#herodiv{width: 88%;height: 476px;background-color:#F5DFD8;border: solid 2px black;position: absolute;top: 2.5%;left: 6.4%;display: flex;align-items: center;justify-content: center;}
+#videobaby{width:98%;height: 95%;background-color: aqua;position: relative;}
+#vimeo{object-fit: cover;background-size: cover;width: 100%;height: 100%;object-fit: cover;background-position: top 30%;}
+#play{position: absolute;font-size: 60px;top: 62%;left: 48.5%;color: #9fff56dc;}
+#page2{width: 100%;height: 713px;background-color: aliceblue;display: flex;}
+#p2left{width:55%;height: 713px;background-color:#F5DFD8;}
+#girldiv{width: 80%;height:85%;border: solid 2px black;margin-top: 35px;margin-left: 91px;position: relative;}
+#girldiv img{width:100%;height: 100%;object-fit: cover;position: absolute;left: 10px;top: 10px;}
+#girldiv button{position: absolute;width: 140px;height:50px;background-color: #9fff56;top: 70%;right: -8.5%;border-radius: 50%;padding-left:30px;padding-right: 35px; font-family: monument;font-weight: bold;font-size: 15px;border: solid 2px black;}
+#p2right{width:55%;height: 713px;background-color: #F5DFD8;position: relative;}
+#p2right h1{text-align: center;margin-top: 40px;font-family: monument;font-weight: bolder;font-size: 60px;line-height: 64.5px;margin-bottom: 40px;letter-spacing:2.6px;}
+#p2right p{margin-left: 22%;margin-right: 22%;text-align: center;font-family: roboto;}
+#tiny{width: 55%;height: 41.5%;position: absolute;background-color: #F5DFD8;right: 11%;bottom: 8.5%;border:solid 2px black;}
+#tiny img{width: 100%;height:100%;background-size: 70%;background-position: top 30%;;margin-top: 10px;position: absolute;right: 10px;}
+#trans{width: 100%;height: 543px;background-color:#F5DFD8;}
+#trans>h1{font-weight: 500;font-family: monument;padding-top: 35px;padding-left: 95px;font-size: 38px;margin-bottom: 45px;}
+#funnel{width: 100%;height: 425px;background-color:pink;position: relative;display: flex;align-items: center;gap: 75px;justify-content: center;background-image: url(Pixel_grid_4000x2000.png);background-position: center;background-size: contain;}
+#box1{width: 22%;height: 280px;background-image: url(socks1.webp);position: relative;background-size: cover;background-position: center;}
+#box2{width: 22%;height: 280px;background-color: #F5DFD8;position: relative;background-image: url(socks2.webp);position: relative;background-size: cover;background-position: center;}
+#box3{width: 22%;height: 280px;background-color: #F5DFD8;position: relative;background-image: url(socks3.webp);position: relative;background-size: cover;background-position: center;}
+#box1 button{position: absolute;bottom: -10%;left: 6.6%;padding-left: 90px;padding-right: 90px;padding-top: 10px;padding-bottom: 10px;background-color: #9fff56;font-family: monument;font-size: 16px;transition-duration: 0.35s;transition-delay: 0.2s;transition-timing-function: ease-in;}
+#box2 button{position: absolute;bottom: -10%;left: 6.6%;padding-left: 90px;padding-right: 90px;padding-top: 10px;padding-bottom: 10px;background-color: #9fff56;font-family: monument;font-size: 16px;transition-duration: 0.35s;transition-delay: 0.2s;transition-timing-function: ease-in;}
+#box3 button{position: absolute;bottom: -10%;left: 6.6%;padding-left: 90px;padding-right: 90px;padding-top: 10px;padding-bottom: 10px;background-color: #9fff56;font-family: monument;font-size: 16px;transition-duration: 0.35s;transition-delay: 0.2s;transition-timing-function: ease-in;}
+#carrot{width: 100%;height:720px;background-color: #F5DFD8;font-size: 45px;font-family: monument;text-align: center;padding-top: 65px;padding-right: 43px;}
+#carrot>h1{font-size: 44px;margin-bottom: 45px;}
+.daddydiv{width:88%;height: 120px;background-color:#F5DFD8;display: flex;margin-left: 9.5%;border-top: black 2px solid;}
+#beta1{width: 20%;height: 100%;background-color: #F5DFD8;display: flex;justify-content: center;align-items: center;text-align: center;}
+#beta1 h2{font-size:14.5px;padding: 15px 17px 10px 17px;border-top-left-radius: 50%;border-bottom-right-radius: 50%;border-top-right-radius: 70%;border-bottom-left-radius: 70%;border: black 2px solid;}
+#beta2{width:24%;height: 100%;background-color: #F5DFD8;}
+#beta2 img{width: 170px;height: 160px;position: relative;bottom: 16%;opacity: 0;transition: ease-in;transition-duration: 0.4s;transition-delay: 0.1s;rotate: 10deg;}
+#beta3{width: 42%;height: 100%;background-color:#F5DFD8;font-size: 23.5px;font-family: monument;padding-top: 32.4px;}
+#beta3 span{font-size: 15.5px;padding-right: 40.1%;} 
+#beta4{width: 14%;height: 100%;background-color: #F5DFD8;color: black;font-size: 58px;}
+#beta4 i{padding-top: 20%;rotate: -20deg;padding-left: 25%;}
+#beta2 img:hover{opacity: 1;rotate: 0deg;}
+#butt:hover{transform: scale(1.15);}
+#behaad{height: 120vh;width:100%;background-color: #F5DFD8;padding-top: 80px;}
+#infinity{height: 65px;width: 100%;background-color:#F5DFD8;white-space: nowrap;overflow-x: auto;border-top: black solid 2px;border-bottom: black solid 2px;}
+#infinity::-webkit-scrollbar{display: none;}
+#infinity h3{background-color: #F5DFD8;font-size: 15px;display: inline-block;margin-top: 24px;margin-right: 17px;font-family: monument;animation-name: roma;animation-duration: 3s;animation-iteration-count: infinite;animation-timing-function: linear;}
+@keyframes roma { 0%{transform: translateX(0);}
+    100%{transform:translateX(calc(-100%));}
+}
+#infinity2{height:100vh;background-color: aquamarine;display: flex;width: 100%;}
+#akkad{height: 100vh;background-color: #F5DFD8;width: 67%;}
+#bakkad{height: 100vh;background-color: #F5DFD8;width: 33%;}
+#ro{height: 33.5%;width: 100%;background-color: #F5DFD8;position: relative;}
+#ro>h1{font-size: 27px;font-family: monument;margin-left: 10%;margin-right: 37%;padding-top: 7%;}
+#viro{height: 66.5%;width:90%;background-color:#F5DFD8;margin-left: 10%;border: black solid 2px;}
+#cutie{width: 95%;height: 93%;margin-left: 2.5%;margin-top:1.8%;border: black solid 2px;}
+#cutie img{width: 100%;height: 100%;}
+#bakkad img{width: 150px; height:150px;margin-left: 160px;margin-top: 40px;}
+#why{width: 100%;height:66.5% ;background-color: #F5DFD8;margin-top: 45px;}
+#why h2{font-size: 25px;font-family: monument;margin-left: 41.3%;padding-top: 19.7%;}
+#why p{font-size: 12px;font-family: monument;padding-left: 120px;padding-right: 90px;padding-top: 60px;}
+#aahat{width: 100%;height: 111vh;background-color: #F5DFD8;padding-top: 75px;}
+#aahat h1{text-align: center;font-size: 36px;font-family: monument;padding-bottom: 60px;}
+#bacchi{width: 100%;height: 50vh;margin-top: 45px;background-color: #F5DFD8;display: flex;}
+#bacchi1{width: 33%;height: 100%;background-color:#F5DFD8;}
+#bacchi1 img{width:70%;height: 75%;margin-left: 110px;}
+#bacchi2{width: 34%;height: 100%;background-color: #F5DFD8;}
+#bacchi2 img{width:100%;height: 100%;}
+#bacchi3{width: 33%;height: 100%;background-color: #F5DFD8;}
+#bacchi3 img{width: 70%;height: 75%;margin-left: 36px;}
+#aahat h3{text-align: center;font-size: 15px;font-family: monument;margin-top: 28px;}
+#flyer{width: 100%;height: 350px;background-color:#F5DFD8;border-top: black 2px solid;display: flex;}
+#leftfly{width: 50%;height: 100%;background-color: #F5DFD8;}
+#leftfly h3{display: inline-block;font-size: 20px;font-family: monument;margin-left: 120px;margin-top: 65px;margin-bottom: 30px;}
+#rightfly{width: 50%;height:100%;border-left: black solid 2px;}
+#Line{width: 100%;height: 67%;display: flex;}
+#line1{width: 25%;height: 100%;background-color:#F5DFD8;}
+#line1 h5{font-size: 12px;text-align:center;padding-left: 50px;padding-top: 20px;text-decoration: underline;padding-bottom: 4px;font-family: acumen;}
+#line2{width: 25%;height: 100%;background-color: #F5DFD8;}
+#line2 h5{font-size: 12px;text-align:center;padding-left: 10px;padding-top: 20px;text-decoration: underline;font-family: acumen;padding-bottom: 4px;margin-right: 70px;}
+#line3{width: 25%;height: 100%;background-color: #F5DFD8;}
+#line3 h5{font-size: 12px;text-align:center;padding-left: -10px;padding-top: 20px;text-decoration: underline;font-family: acumen;padding-bottom: 4px;margin-right: 110px;}
+#line4{width: 25%;height: 100%;background-color:#F5DFD8;}
+#line4 h5{font-size: 12px;text-align:center;padding-left: 0px;padding-top: 20px;text-decoration: underline;font-family: acumen;padding-bottom: 4px;margin-right:130px;}
+#bird{width: 100%;height: 40%;background-color:#F5DFD8;display: flex;}
+#bird h4{font-family: monument;font-size: 12px;border: solid black 2px;padding: 5px;border-radius: 13px;}
+#bird1{display: flex;width: 70%;height: 50px;gap: 10px;align-items: center;margin-top: 50px;padding-left: 50px;}
+#bird2{width: 30%;height: 50px;background-color: #F5DFD8;align-items: center;display: flex;align-items: center;font-size: 20px;margin-top: 50px;}
+#bird2 i{font-size: 14px;border: 2px solid black;padding: 10px;border-radius: 50%;margin-left: 50px;}
+#rightfly h1{font-size:25px;font-family: monument;text-decoration: underline;padding-bottom: 10px;margin-top: 30px;padding-left: 50px;}
+#rightfly p{font-size: 15px;font-family: monument;margin-top: 10px;border-bottom: 2px solid black;padding-bottom: 30px;padding-left: 50px;}
+#arrow{position:relative;bottom: 20%;right: -81%;font-size: 30px;width: 10%;font-family: monument;font-size: 39px;}
